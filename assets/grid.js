@@ -89,8 +89,6 @@
     }.bind(this));
   };
 
-  window.addEventListener('load', function() {
-    new Grid();
-  });
+  window.app.Grid = Grid;
 
 })();
