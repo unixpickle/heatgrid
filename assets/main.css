@@ -1,4 +1,15 @@
+html, body {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select:none;
+  user-select:none;
+  -o-user-select:none;
+
+  text-align: center;
+}
+
 #grid {
+  border: 1px solid #d5d5d5;
   width: 290px;
   height: 290px;
 }

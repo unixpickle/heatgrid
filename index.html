@@ -13,13 +13,21 @@
     window.app = {};
     </script>
     <script src="assets/grid.js"></script>
+    <script src="assets/emulator.js"></script>
+    <script src="assets/main.js"></script>
   </head>
   <body>
+    <input type="checkbox" id="hot-click"> Clicks are hot (not cold)
+    <br>
     <svg id="grid" viewBox="0 0 290 290" xmlns:xlink="http://www.w3.org/1999/xlink">
       <defs>
-        <path id="hexagon" stroke="black" stroke-width="1"
+        <path id="hexagon" stroke="#f0f0f0" stroke-width="1"
               d="M-5,8.66025404 5,8.66025404 10,0 5,-8.66025404 -5,-8.66025404 -10,0 z">
       </defs>
     </svg>
+    <br>
+    Click anywhere in the box.
+    <br>
+    You can even spam your mouse.
   </body>
 </html>
